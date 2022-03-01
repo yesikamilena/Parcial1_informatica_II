@@ -1,0 +1,19 @@
+// Código de interconexión de los Arduinos para el Arduino 2.
+//
+void setup()
+{
+  pinMode(6, OUTPUT);
+  pinMode(7, INPUT);
+  pinMode(8, INPUT);
+}
+
+void loop()
+{  
+  bool a;
+  if(digitalRead(8)==HIGH){
+  	a= digitalRead(7);
+  }
+  digitalWrite(6,a);
+  
+  delay(550);
+}

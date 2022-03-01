@@ -1,0 +1,80 @@
+//Código de interconexión de los Arduinos para el Arduino 1.
+
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
+}
+
+void loop()
+{
+  delay(250);
+  digitalWrite(8, LOW);
+  delay(250);  
+  digitalWrite(7, LOW); 
+  delay(250);  
+  digitalWrite(8, HIGH); 
+  delay(500);
+  digitalWrite(8, LOW); 
+  delay(250);
+  digitalWrite(7, LOW);
+  delay(250);
+  digitalWrite(8, HIGH);
+  
+   //SEGUNDO BIT
+  delay(500);
+  digitalWrite(8, LOW); 
+  delay(250);
+  digitalWrite(7, LOW);
+  delay(250);
+  digitalWrite(8, HIGH);
+  
+   //TERCER BIT
+  delay(500);
+  digitalWrite(8, LOW); 
+  delay(250);
+  digitalWrite(7, HIGH);
+  delay(250);
+  digitalWrite(8, HIGH);
+  
+   //CUARTO BIT
+  delay(500);
+  digitalWrite(8, LOW); 
+  delay(250);
+  digitalWrite(7, HIGH);
+  delay(250);
+  digitalWrite(8, HIGH);
+  
+   //QUINTO BIT
+  delay(500);
+  digitalWrite(8, LOW); 
+  delay(250);
+  digitalWrite(7, LOW);
+  delay(250);
+  digitalWrite(8, HIGH);
+  
+   //SEXTO BIT
+  delay(500);
+  digitalWrite(8, LOW); 
+  delay(250);
+  digitalWrite(7, HIGH);
+  delay(250);
+  digitalWrite(8, HIGH);
+  
+   //SEPTIMO BIT
+  delay(500);
+  digitalWrite(8, LOW); 
+  delay(250);
+  digitalWrite(7, LOW);
+  delay(250);
+  digitalWrite(8, HIGH);
+  
+   //OCTAVO BIT
+  delay(500);
+  digitalWrite(8, LOW); 
+  delay(250);
+  digitalWrite(7, HIGH);
+  delay(250);
+  digitalWrite(8, HIGH);
+}
